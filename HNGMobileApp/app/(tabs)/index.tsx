@@ -7,7 +7,7 @@ export default function HomeScreen() {
     <Text style={styles.title}>Welcome to HNG Stage 0 Task</Text>
     <Button 
       title="Visit GitHub Repo" 
-      onPress={() => Linking.openURL('https://github.com/your-username/react-native-hng-task')} 
+      onPress={() => Linking.openURL('https://github.com/wayneleon1/mobile-desktop-stage0')} 
     />
     <Button 
       title="HNG Hire (React Native Developers)" 
@@ -18,6 +18,7 @@ export default function HomeScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, justifyContent: 'center', alignItems: 'center' },
+  container: { flex: 1, justifyContent: 'center', alignItems: 'center' ,gap: 6},
   title: { fontSize: 20, fontWeight: 'bold', marginBottom: 20 },
+
 });
